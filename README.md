@@ -1,4 +1,4 @@
-# 🦾 오억이 프로젝트 (Roller Project)
+# 🦾 오억이 프로젝트 (GiGE Controller Project)
 
 > **폴리텍 졸업작품 | MVS 기반 디지털 카메라 제어 + 로봇 융합 시스템**
 

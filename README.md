@@ -27,6 +27,7 @@
 - **사진 캡처 & 녹화 기능** 📷🎞️  
 - **OCR 문자 인식 기능** 🔤  
 - **Object Detection (YOLO 기반)** 🤖  
+<img width="450" height="280" alt="image" src="https://github.com/user-attachments/assets/072baf29-6b98-44a9-a5ac-881374af3c29" />
 
 ---
 

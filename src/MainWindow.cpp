@@ -33,6 +33,7 @@ MainWindow::MainWindow(QWidget* parent)
     uiTimer_.setInterval(100);
     connect(&uiTimer_, &QTimer::timeout, this, &MainWindow::onUiTick);
     uiTimer_.start();
+    fpsTick_.satart();
 }
 
 MainWindow::~MainWindow() {}
@@ -287,7 +288,12 @@ void MainWindow::onUiTick() {
     }
 
     updateView(out);
-    lblFps_->setText("FPS: ~10");
+    fpsCounter_++;
+    if (fpsTick_.elapsed() >= 1000) {
+        lblFps_->setText(QString("FPS: %1").arg(fpsCounter_));
+        fpsCounter_ = 0;
+        fpsTick_.restart();
+    }
 }
 void MainWindow::updateView(const cv::Mat& bgr) {
     auto img = MatBGRToQImage(bgr);

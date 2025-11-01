@@ -62,6 +62,10 @@ private:
     OcrEngine ocr_;
     Detector det_;
 
+    QTimer uiTimer_;
+    QElapsedTimer fpsTick_;
+    int fpsCounter_ = 0;
+
     std::mutex frameMtx_;
     cv::Mat lastFrame_;
     bool running_{ false };
@@ -86,5 +90,4 @@ private:
     QCheckBox* chkFlipH_{ nullptr };       // ÁÂ¿ì
     QCheckBox* chkFlipV_{ nullptr };       // »óÇÏ
 
-    QTimer uiTimer_;
 };

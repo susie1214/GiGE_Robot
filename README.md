@@ -90,8 +90,11 @@ roller_project/
 <div align="center">
   <img width="154" height="174" alt="image" src="https://github.com/user-attachments/assets/c370b12f-9543-411a-82b9-3d71ab62c5f8" />
 <br>
-  <em>“오억이 – 시각과 움직임이 결합된 지능형 안내견 로봇”</em>
+  <em>“오억이 – 시각과 움직임이 결합된 지능형 상환인식 로봇”</em>
+<br>
+  <img width="300" height="500" alt="오억이포스터" src="https://github.com/user-attachments/assets/f12f5f23-3836-49a1-8a50-13de3a7143ae" />
 </div>
+
 
 ---
 
